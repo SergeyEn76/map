@@ -1,0 +1,39 @@
+{
+  "name": "map",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/SergeyEn76/map#readme",
+  "bugs": {
+    "url": "https://github.com/SergeyEn76/map/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SergeyEn76/map.git"
+  },
+  "license": "ISC",
+  "author": "SergeyEn76",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.27.2",
+    "@babel/core": "^7.27.4",
+    "@babel/preset-env": "^7.27.2",
+    "babel-loader": "^10.0.0",
+    "css-loader": "^7.1.2",
+    "eslint": "^9.29.0",
+    "html-webpack-plugin": "^5.6.3",
+    "jest": "^30.0.2",
+    "jest-babel": "^1.0.1",
+    "mini-css-extract-plugin": "^2.9.2",
+    "raw-loader": "^4.0.2",
+    "webpack": "^5.99.9",
+    "webpack-cli": "^6.0.1"
+  },
+  "dependencies": {
+    "core-js": "^3.43.0"
+  }
+}
